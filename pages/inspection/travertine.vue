@@ -6,6 +6,9 @@ export default {
     Logo
   }
 }
+
+require('@/static/bootstrap.theme.journal.min.css')
+
 </script>
 
 <template>
@@ -144,11 +147,11 @@ export default {
       </div>
   </div>
 
-<div class="jumbotron jumbotron-fluid border-top mb-0 bg-secondary">
-  <div class="container">
-    <p class="lead text-white">Questions?</p> <a href="mailto:" class="lead text-warning">Contact us</a>
-  </div>
-</div>
+    <div class="jumbotron jumbotron-fluid border-top mb-0 py-4 bg-secondary">
+        <div class="container px-4">
+            <p class="lead text-white">Questions?</p> <a href="mailto:" class="lead text-info">Contact us</a>
+        </div>
+    </div>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
