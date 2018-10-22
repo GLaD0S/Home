@@ -6,24 +6,20 @@ export default {
     Logo
   }
 }
+require('@/static/bootstrap.theme.journal.min.css')
 </script>
 
 <template>
   <section>
-    <div class="jumbotron jumbotron-fluid hero text-white">
+    <div class="jumbotron jumbotron-fluid hero text-white mb-4">
         <div class="container">
-          <h1 class="display-4">Report</h1>
-          <p class="lead">Sample Report</p>
+            <h1 class="display-4">4845 Travertine Avenue</h1>
+            <p class="lead">Pre-offer Inspection Report</p>
         </div>
-      </div>
-      <div class="container bg-light p-4 mb-4">
-            <div class="d-block"><h3 class="text-muted">Report for:</h3></div>
-            <div><h2>4845 Travertine Avenue</h2></div>
-            <div><h4>Virginia Beach, VA 12345</h4></div>
-      </div>
-      <div class="container p-4 mb-4">
+    </div>
+      <div class="container px-4 pb-4">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6">
             <ul class="list-group">
               <li class="list-group-item active"><strong class="float-right">98 / 100</strong>Overall Score</li>
               <li class="list-group-item"><strong class="float-right">Oct 10th, 2018</strong>Last Inspection Date</li>
@@ -37,7 +33,7 @@ export default {
               <li class="list-group-item"><strong class="float-right">1</strong>Half Baths</li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col-md">
             <div class="card">
               <div class="card-header">
                 Overall Score Details
@@ -51,9 +47,15 @@ export default {
         </div>
       </div>
 
-      <div class="container bg-light p-4 mb-4">
+    <div class="card text-center mb-4">
+        <div class="card-body">
+            <h5 class="card-title">Report Details</h5>
+        </div>
+    </div>
+
+      <div class="container bg-info p-4">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6">
             <ul class="list-group">
               <li class="list-group-item active"><strong class="float-right">93 / 100</strong>Structural Systems</li>
               <li class="list-group-item"><strong class="float-right">Failed</strong>Balcony <p class="text-muted mb-0">Multiple loose boards are a tripping hazard.<br />The privacy railings nearest the building are loose and must be secured</p></li>
@@ -68,7 +70,7 @@ export default {
               <li class="list-group-item"><strong class="float-right">Passed</strong>Crawlspace <p class="text-muted mb-0">No crawlspace in this house</p></li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col-md">
             <div class="card">
               <div class="card-header">
                 Structural Systems Details
@@ -82,9 +84,9 @@ export default {
         </div>
       </div>
 
-      <div class="container p-4 mb-4">
+      <div class="container bg-light p-4">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6">
             <ul class="list-group">
               <li class="list-group-item active"><strong class="float-right">99 / 100</strong>Attic & Garage</li>
               <li class="list-group-item"><strong class="float-right">Passed</strong>Access (ceiling hatch)</li>
@@ -94,7 +96,7 @@ export default {
               <li class="list-group-item"><strong class="float-right">Passed</strong>Garage door</li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col-md">
             <div class="card">
               <div class="card-header">
                 Attic Details
@@ -108,9 +110,9 @@ export default {
         </div>
       </div>
 
-      <div class="container bg-light p-4 mb-4">
+      <div class="container bg-info p-4">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6">
             <ul class="list-group">
               <li class="list-group-item active"><strong class="float-right">97 / 100</strong>Electrical System</li>
               <li class="list-group-item"><i class="float-right">Concealed Wires</i>Limitations</li>
@@ -121,7 +123,7 @@ export default {
               <li class="list-group-item"><strong class="float-right">Passed</strong>Carbon Monoxide Alarm<p class="text-muted">Alarm on 2nd floor</p></li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col-md">
             <div class="card">
               <div class="card-header">
                 Electrical System Details
@@ -135,9 +137,9 @@ export default {
         </div>
       </div>
 
-      <div class="container p-4 mb-4">
+      <div class="container bg-light p-4">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6">
             <ul class="list-group">
               <li class="list-group-item active">Heating, Ventilation, and Air Conditioning (HVAC)<strong class="float-right">99 / 100</strong></li>
               <li class="list-group-item"><i class="float-right">Electric and Natural Gas</i>Energy Sources</li>
@@ -147,7 +149,7 @@ export default {
               <li class="list-group-item"><strong class="float-right">Passed</strong>Air Filters<p class="text-muted">3rd floor filter should be replaced</p></li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col-md">
             <div class="card">
               <div class="card-header">
                 HVAC Details
@@ -161,9 +163,9 @@ export default {
         </div>
       </div>
 
-      <div class="container bg-light p-4 mb-4">
+      <div class="container bg-info p-4">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6">
             <ul class="list-group">
               <li class="list-group-item active"><strong class="float-right">100 / 100</strong>Plumbing System</li>
               <li class="list-group-item"><strong class="float-right">Passed</strong>Water Pressure</li>
@@ -173,7 +175,7 @@ export default {
               <li class="list-group-item"><strong class="float-right">Passed</strong>Hose Bibs</li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col-md">
             <div class="card">
               <div class="card-header">
                 Plumbing System Details
@@ -187,9 +189,9 @@ export default {
         </div>
       </div>
 
-      <div class="container p-4 mb-4">
+      <div class="container bg-light p-4 mb-4">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6">
             <ul class="list-group">
               <li class="list-group-item active"><strong class="float-right">100 / 100</strong>Appliances</li>
               <li class="list-group-item"><strong class="float-right">Passed</strong>Refrigerator</li>
@@ -200,7 +202,7 @@ export default {
               <li class="list-group-item"><strong class="float-right">Passed</strong>Washer/dryer</li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col-md">
             <div class="card">
               <div class="card-header">
                 Appliances Details
@@ -213,6 +215,12 @@ export default {
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid border-top mb-0 py-4 bg-secondary">
+        <div class="container px-4">
+            <p class="lead text-white">Questions?</p> <a href="mailto:" class="lead text-info">Contact us</a>
+        </div>
     </div>
   </section>
 </template>
@@ -228,7 +236,7 @@ body {
 }
 
 .hero {
-  background-image: url(https://images.unsplash.com/photo-1537902681360-cee1e4f5206b?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=b702b75550ef66b8f5a5c05e6e071da6);
+  background-image: url('../../assets/images/ocean.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
